@@ -1,0 +1,3 @@
+Storage Account	Environment	Private Endpoint Enabled	Subscription	Resource Group	Content Details
+storageacct1	Prod	Yes	Prod-Subscription	rg-storage	Containers, shares, queues etc.
+storageacct2	Dev	No	Dev-Subscription	rg-dev	Containers, shares, queues etc.
