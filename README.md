@@ -24,3 +24,6 @@ The script accepts a list of Storage Account names and Resource Groups from an E
 ```powershell
 
 Install-Module Az -Scope CurrentUser
+Install-Module ImportExcel -Scope CurrentUser
+ 
+./Get-StorageAccountInventory.ps1
