@@ -17,6 +17,24 @@ The script accepts a list of Storage Account names and Resource Groups from an E
 - Azure PowerShell integration
 - Large-scale reporting support
 
+## Output
+Generated file: SAnames_Output.xlsx
+
+Output contains:
+- Storage Account
+- Environment
+- Private Endpoint Enabled
+- Subscription
+- Resource Group
+- Content Details
+
+## Example Use Cases
+- Cloud inventory audits
+- Migration assessments
+- Storage governance reviews
+- Subscription cleanup activities
+- Azure operations reporting
+
 ## Prerequisites
 
 ### Azure PowerShell
