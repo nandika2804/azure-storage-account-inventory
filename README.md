@@ -8,14 +8,25 @@ This tool automates the discovery and reporting of Azure Storage Accounts across
 The script accepts a list of Storage Account names and Resource Groups from an Excel file, searches across all enabled Azure subscriptions, and exports inventory information into an Excel report.
 
 
-## Features
-- Bulk Storage Account discovery
-- Cross-subscription lookup
-- Excel input support
-- Excel output generation
-- Resource Group validation
-- Azure PowerShell integration
-- Large-scale reporting support
+## What this script is useful for
+This is actually a strong Azure Operations/SRE inventory tool because it helps answer:
+- Which subscription contains the storage account?
+- Which resource group hosts it?
+- Is a private endpoint configured?
+- What blob containers exist?
+- What file shares exist?
+- What tables exist?
+- What queues exist?
+- Which environment owns the storage account?
+  
+## Typical use cases:
+- Cloud inventory audits
+- Migration assessments
+- Storage governance reviews
+- Security reviews
+- Private endpoint validation
+- Production environment documentation
+- Application dependency discovery
 
 ## Output
 Generated file: SAnames_Output.xlsx
@@ -28,12 +39,6 @@ Output contains:
 - Resource Group
 - Content Details
 
-## Example Use Cases
-- Cloud inventory audits
-- Migration assessments
-- Storage governance reviews
-- Subscription cleanup activities
-- Azure operations reporting
 
 ## Prerequisites
 
